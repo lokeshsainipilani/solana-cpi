@@ -24,7 +24,7 @@ describe("Counter Program Tests", ()=>{
     let programId: PublicKey;
     let dataAccount: Keypair;
     let userAccount: Keypair;
-
+    // deployed file name
     const programPath = path.join(import.meta.dir, "program.so");
 
     beforeEach(() => {
